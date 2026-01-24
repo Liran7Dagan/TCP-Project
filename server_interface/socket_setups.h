@@ -11,7 +11,7 @@ using namespace std;
 These are the steps the server handles to perform socket interactions:
 1. Initialize winsock lib
 2. Create the server socket
-3. Bind ip (Which is 0.0.0.0) and port (which is 12345) to the socket
+3. Bind to 0.0.0.0 and port (which is 12345) to the socket
 -------------------------
 4. Listen on the socket
 5. Accept clients
@@ -37,3 +37,6 @@ public:
 	// step 3.2: Bind our TCP listening socket to the address details we created
 	static bool assignAddress(const SOCKET& listenSocket, sockaddr_in& serverAddr);
 };
+
+
+

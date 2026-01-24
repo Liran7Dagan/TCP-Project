@@ -1,4 +1,7 @@
-﻿  interact_with_client.cpp
+﻿  client_info.cpp
+C:\Users\liran\Desktop\HIT\שנה ב\רשתות תקשורת מחשבים\server_interface\client_info.cpp(39,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  interact_with_client.cpp
   main.cpp
+  socket_setups.cpp
   Generating Code...
   chat_project.vcxproj -> C:\Users\liran\Desktop\HIT\שנה ב\רשתות תקשורת מחשבים\server_interface\x64\Debug\server_interface.exe

@@ -21,7 +21,7 @@ int main()
 	sockaddr_in serverAddr;
 
 	//const string ip = "127.0.0.1"; // UNCOMMENT FOR LOOPBACK
-	const string ip = "192.168.1.15"; // local IP address, comment or change if needed
+	const string ip = "192.168.1.16"; // local IP address, comment or change if needed
 	
 	const int port = 12345; // Our assigned server port number
 	if (!SocketSetups::createAddress(serverAddr, ip, port))
